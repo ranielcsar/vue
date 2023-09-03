@@ -1,0 +1,317 @@
+{
+  "products": [
+    {
+      "id": "abc123",
+      "name": "Running Shoes",
+      "quantity": 5,
+      "description": "Experience comfort and style with these high-quality running shoes. Perfect for your daily runs or workouts.",
+      "category": "shoes",
+      "image": "https://picsum.photos/300/300?random=1",
+      "price": 49.99
+    },
+    {
+      "id": "def456",
+      "name": "Athletic Sneakers",
+      "quantity": 3,
+      "description": "Elevate your athletic performance with these modern athletic sneakers. Designed for agility and support.",
+      "category": "shoes",
+      "image": "https://picsum.photos/300/300?random=2",
+      "price": 79.99
+    },
+    {
+      "id": "ghi789",
+      "name": "Classic Loafers",
+      "quantity": 0,
+      "description": "Embrace timeless elegance with these classic loafers. Crafted with premium materials for a sophisticated look.",
+      "category": "shoes",
+      "image": "https://picsum.photos/300/300?random=3",
+      "price": 29.99
+    },
+    {
+      "id": "jkl012",
+      "name": "Hiking Boots",
+      "quantity": 8,
+      "description": "Conquer the great outdoors with these rugged hiking boots. Built for durability and stability on any terrain.",
+      "category": "shoes",
+      "image": "https://picsum.photos/300/300?random=4",
+      "price": 64.99
+    },
+    {
+      "id": "mno345",
+      "name": "Casual Sneakers",
+      "quantity": 2,
+      "description": "Step into casual comfort with these versatile sneakers. Ideal for everyday wear, combining style and relaxation.",
+      "category": "shoes",
+      "image": "https://picsum.photos/300/300?random=5",
+      "price": 54.99
+    },
+    {
+      "id": "pqr678",
+      "name": "Elegant Pumps",
+      "quantity": 0,
+      "description": "Make a statement with these elegant pumps. The perfect choice for special occasions or a touch of glamour.",
+      "category": "shoes",
+      "image": "https://picsum.photos/300/300?random=6",
+      "price": 39.99
+    },
+    {
+      "id": "stu901",
+      "name": "Sleek Oxford Shoes",
+      "quantity": 6,
+      "description": "Elevate your formal attire with these sleek Oxford shoes. Exude confidence and sophistication at any event.",
+      "category": "shoes",
+      "image": "https://picsum.photos/300/300?random=7",
+      "price": 69.99
+    },
+    {
+      "id": "vwx234",
+      "name": "Comfy Sandals",
+      "quantity": 4,
+      "description": "Experience all-day comfort with these stylish yet comfortable sandals. Perfect for strolls on warm days.",
+      "category": "shoes",
+      "image": "https://picsum.photos/300/300?random=8",
+      "price": 59.99
+    },
+    {
+      "id": "yza567",
+      "name": "Summer Flip-Flops",
+      "quantity": 0,
+      "description": "Embrace the summer vibe with these colorful flip-flops. Ideal for beach days and casual outings.",
+      "category": "shoes",
+      "image": "https://picsum.photos/300/300?random=9",
+      "price": 44.99
+    },
+    {
+      "id": "bcd890",
+      "name": "Casual Slip-On Sandals",
+      "quantity": 5,
+      "description": "Slide into comfort with these easygoing slip-on sandals. Perfect for leisurely walks and laid-back occasions.",
+      "category": "sandals",
+      "image": "https://picsum.photos/300/300?random=10",
+      "price": 29.99
+    },
+    {
+      "id": "efg123",
+      "name": "Beach-Ready Flip-Flops",
+      "quantity": 7,
+      "description": "Get ready for the beach life with these vibrant flip-flops. Lightweight and durable for your seaside adventures.",
+      "category": "sandals",
+      "image": "https://picsum.photos/300/300?random=11",
+      "price": 39.99
+    },
+    {
+      "id": "hij456",
+      "name": "Casual Canvas Sandals",
+      "quantity": 0,
+      "description": "Stay effortlessly cool with these casual canvas sandals. A must-have for your summer wardrobe.",
+      "category": "sandals",
+      "image": "https://picsum.photos/300/300?random=12",
+      "price": 19.99
+    },
+    {
+      "id": "klm789",
+      "name": "Fashionable Gladiator Sandals",
+      "quantity": 3,
+      "description": "Make a bold statement with these fashionable gladiator sandals. Stand out from the crowd with style.",
+      "category": "sandals",
+      "image": "https://picsum.photos/300/300?random=13",
+      "price": 49.99
+    },
+    {
+      "id": "nop012",
+      "name": "Casual Summer Sandals",
+      "quantity": 1,
+      "description": "Embrace the summer breeze with these comfortable sandals. Ideal for casual outings and picnics.",
+      "category": "sandals",
+      "image": "https://picsum.photos/300/300?random=14",
+      "price": 59.99
+    },
+    {
+      "id": "qrs345",
+      "name": "Stylish Wedge Sandals",
+      "quantity": 0,
+      "description": "Elevate your style with these chic wedge sandals. The perfect blend of fashion and comfort.",
+      "category": "sandals",
+      "image": "https://picsum.photos/300/300?random=15",
+      "price": 24.99
+    },
+    {
+      "id": "tuv678",
+      "name": "Floral Print Skirt",
+      "quantity": 9,
+      "description": "Add a touch of elegance with this floral print skirt. Perfect for spring and summer fashion.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=16",
+      "price": 54.99
+    },
+    {
+      "id": "wxy901",
+      "name": "Denim Mini Skirt",
+      "quantity": 2,
+      "description": "Rock the casual look with this trendy denim mini skirt. Versatile and stylish for various occasions.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=17",
+      "price": 34.99
+    },
+    {
+      "id": "zab234",
+      "name": "Elegant Maxi Skirt",
+      "quantity": 0,
+      "description": "Make a statement with this elegant maxi skirt. Ideal for formal events and special evenings.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=18",
+      "price": 19.99
+    },
+    {
+      "id": "cde567",
+      "name": "Casual Striped Shirt",
+      "quantity": 4,
+      "description": "Achieve a laid-back look with this casual striped shirt. A must-have for your everyday wardrobe.",
+      "category": "shirts",
+      "image": "https://picsum.photos/300/300?random=19",
+      "price": 24.99
+    },
+    {
+      "id": "efg890",
+      "name": "Classic White Shirt",
+      "quantity": 6,
+      "description": "Elevate your style with this classic white shirt. Versatile and timeless for any formal or casual occasion.",
+      "category": "shirts",
+      "image": "https://picsum.photos/300/300?random=20",
+      "price": 34.99
+    },
+    {
+      "id": "ghi123",
+      "name": "Chic Printed Blouse",
+      "quantity": 0,
+      "description": "Stand out with this chic printed blouse. Perfect for adding a pop of color to your ensemble.",
+      "category": "shirts",
+      "image": "https://picsum.photos/300/300?random=21",
+      "price": 19.99
+    },
+    {
+      "id": "ijk456",
+      "name": "Formal Dress Shirt",
+      "quantity": 7,
+      "description": "Achieve a polished look with this formal dress shirt. Designed for comfort and sophistication.",
+      "category": "shirts",
+      "image": "https://picsum.photos/300/300?random=22",
+      "price": 39.99
+    },
+    {
+      "id": "klm789",
+      "name": "Casual Checkered Shirt",
+      "quantity": 3,
+      "description": "Stay casual yet stylish with this checkered shirt. Perfect for weekends and relaxed outings.",
+      "category": "shirts",
+      "image": "https://picsum.photos/300/300?random=23",
+      "price": 29.99
+    },
+    {
+      "id": "mno012",
+      "name": "Vintage Graphic Tee",
+      "quantity": 0,
+      "description": "Channel retro vibes with this vintage graphic tee. Express yourself with unique and nostalgic designs.",
+      "category": "shirts",
+      "image": "https://picsum.photos/300/300?random=24",
+      "price": 19.99
+    },
+    {
+      "id": "pqr345",
+      "name": "Classic Polo Shirt",
+      "quantity": 5,
+      "description": "Elevate your casual look with this classic polo shirt. A versatile addition to your wardrobe.",
+      "category": "shirts",
+      "image": "https://picsum.photos/300/300?random=25",
+      "price": 34.99
+    },
+    {
+      "id": "stu678",
+      "name": "Cotton V-Neck Tee",
+      "quantity": 2,
+      "description": "Experience ultimate comfort with this soft cotton V-neck tee. Essential for your everyday outfits.",
+      "category": "shirts",
+      "image": "https://picsum.photos/300/300?random=26",
+      "price": 29.99
+    },
+    {
+      "id": "vwx901",
+      "name": "Floral A-Line Skirt",
+      "quantity": 0,
+      "description": "Embrace your feminine side with this charming floral A-line skirt. Perfect for springtime elegance.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=27",
+      "price": 19.99
+    },
+    {
+      "id": "yza234",
+      "name": "Casual Denim Skirt",
+      "quantity": 4,
+      "description": "Effortlessly stylish with a touch of casual charm, this denim skirt is a versatile addition to your wardrobe.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=28",
+      "price": 24.99
+    },
+    {
+      "id": "bcd567",
+      "name": "Elegant Pleated Skirt",
+      "quantity": 0,
+      "description": "Elevate your style with this elegant pleated skirt. Perfect for formal events and special occasions.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=29",
+      "price": 14.99
+    },
+    {
+      "id": "efg890",
+      "name": "Chic Midi Skirt",
+      "quantity": 6,
+      "description": "Make a fashion statement with this chic midi skirt. Versatile and trendy for various outfit combinations.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=30",
+      "price": 29.99
+    },
+    {
+      "id": "ghi123",
+      "name": "Striped Pleated Skirt",
+      "quantity": 2,
+      "description": "Stay on-trend with this striped pleated skirt. Effortlessly stylish and perfect for your casual ensembles.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=31",
+      "price": 19.99
+    },
+    {
+      "id": "ijk456",
+      "name": "Floral Maxi Skirt",
+      "quantity": 0,
+      "description": "Capture the essence of summer with this floral maxi skirt. Perfect for romantic outings and beach days.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=32",
+      "price": 14.99
+    },
+    {
+      "id": "klm789",
+      "name": "Classic A-Line Skirt",
+      "quantity": 8,
+      "description": "Achieve timeless elegance with this classic A-line skirt. Versatile and perfect for both formal and casual wear.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=33",
+      "price": 39.99
+    },
+    {
+      "id": "mno012",
+      "name": "Chic Wrap Skirt",
+      "quantity": 1,
+      "description": "Wrap yourself in style with this chic wrap skirt. Effortlessly trendy and perfect for your summer looks.",
+      "category": "skirts",
+      "image": "https://picsum.photos/300/300?random=34",
+      "price": 24.99
+    }
+  ],
+  "cart": [],
+  "categories": [
+    "shoes",
+    "sandals",
+    "shirts",
+    "skirts"
+  ]
+}

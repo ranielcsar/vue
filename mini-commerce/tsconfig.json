@@ -1,0 +1,32 @@
+{
+  "files": [],
+  "extends": [
+    "@vue/tsconfig/tsconfig.dom.json",
+    "@tsconfig/node18/tsconfig.json"
+  ],
+  "include": [
+    "src/**/*",
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*",
+    "nightwatch.conf.*",
+    "playwright.config.*",
+    "package.json"
+  ],
+  "exclude": [
+    "src/**/__tests__/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+    },
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": [
+      "node"
+    ],
+  }
+}
