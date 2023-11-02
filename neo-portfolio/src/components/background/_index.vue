@@ -1,12 +1,16 @@
 <template>
-  <div class="absolute bottom-0 -z-10 w-full">
+  <div class="absolute bottom-10 -z-10 w-full overflow-hidden">
     <div class="triangle yellow -left-10 md:-left-20"></div>
     <div class="triangle mint lg:left-20"></div>
-    <div class="triangle pale-blue right-10 md:right-52 lg:left-80"></div>
-    <div class="triangle mint mint-2 -right-24 z-10 md:right-0 lg:left-1/2"></div>
-    <div class="triangle electric-blue hidden md:-right-36 md:block lg:right-40"></div>
-    <div class="triangle pale-blue pale-blue-2 hidden lg:-right-20 lg:block"></div>
-    <div class="triangle mint mint-3 hidden xl:-right-24 xl:block"></div>
+    <div class="triangle pale-blue right-10 md:right-52 lg:left-80 xl:left-[25vw]"></div>
+    <div
+      class="triangle electric-blue -z-10 hidden md:-right-36 md:block lg:right-40 xl:left-[40vw]"
+    ></div>
+    <div class="triangle mint mint-2 xl -right-24 z-10 md:right-0 lg:left-1/2"></div>
+    <div
+      class="triangle pale-blue pale-blue-2 z-10 hidden lg:-right-20 lg:block xl:right-[15vw]"
+    ></div>
+    <div class="triangle mint mint-3 z-10 hidden xl:-right-24 xl:block"></div>
   </div>
 </template>
 
@@ -90,6 +94,36 @@
 
   .pale-blue-2 {
     --border-w: 0 15vw 18vh 15vw;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .yellow {
+    --border-w: 0 10vw 26vh 10vw;
+  }
+
+  .mint {
+    --border-w: 0 14vw 30vh 14vw;
+  }
+
+  .pale-blue {
+    --border-w: 0 10vw 18vh 10vw;
+  }
+
+  .mint-2 {
+    --border-w: 0 12vw 22vh 12vw;
+  }
+
+  .electric-blue {
+    --border-w: 0 7vw 12vh 7vw;
+  }
+
+  .pale-blue-2 {
+    --border-w: 0 10vw 18vh 10vw;
+  }
+
+  .mint-3 {
+    --border-w: 0 12vw 20vh 10vw;
   }
 }
 </style>

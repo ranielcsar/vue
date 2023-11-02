@@ -53,35 +53,33 @@ const backendSkills: SkillProps[] = [
 </script>
 
 <template>
-  <div class="flex flex-col gap-10">
-    <section class="grid grid-rows-[auto] gap-10 lg:grid-cols-2">
+  <section class="flex w-full flex-col gap-10">
+    <div class="grid grid-rows-[auto] gap-10 lg:grid-cols-2 lg:gap-5">
       <article v-for="skill in skills" :key="skill.title" class="h-max text-[1.75ch]">
         <h2
-          class="lg:text-xl md:max-w-[70%] rounded-sm font-bold p-2 mb-2 border-2 border-black shadow-neo-sm tracking-widest text-black bg-pale-blue"
+          class="mb-2 rounded-sm border-2 border-black bg-pale-blue p-2 font-bold tracking-widest text-black shadow-neo-sm md:max-w-[70%] lg:text-xl"
         >
           <span>✦ {{ skill.title }}</span>
         </h2>
-        <p class="leading-relaxed tracking-wide lg:text-xl">
+        <p class="max-w-[90%] leading-relaxed tracking-wide lg:text-xl">
           {{ skill.text }}
         </p>
       </article>
-    </section>
+    </div>
 
-    <section class="flex flex-col gap-6">
+    <div class="flex flex-col gap-6">
       <h2 class="text-3xl">Conhecimentos em Backend</h2>
 
       <article v-for="skill in backendSkills" :key="skill.title" class="h-max text-[1.75ch]">
         <h2
-          class="md:w-1/3 lg:text-xl rounded-sm font-bold p-2 mb-2 border-2 border-black shadow-neo-sm tracking-widest text-black bg-pale-blue"
+          class="mb-2 rounded-sm border-2 border-black bg-pale-blue p-2 font-bold tracking-widest text-black shadow-neo-sm md:w-1/3 lg:text-xl"
         >
           <span>✦ {{ skill.title }}</span>
         </h2>
-        <p class="leading-relaxed tracking-wide lg:text-xl">
+        <p class="max-w-[90%] leading-relaxed tracking-wide lg:text-xl">
           {{ skill.text }}
         </p>
       </article>
-    </section>
-  </div>
+    </div>
+  </section>
 </template>
-
-<style scoped></style>

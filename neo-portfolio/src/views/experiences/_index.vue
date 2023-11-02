@@ -3,7 +3,7 @@ import ExpView from './exp-view.vue'
 </script>
 
 <template>
-  <section>
+  <section class="w-full flex-1 flex-col items-center">
     <exp-view title="Dev Frontend Jr ~ (PJ na Brainny Smart Solutions)">
       Prestação de serviços para reparo e criação de novas funcionalidades em aplicações web de
       administração, assim como em landing pages, usando tecnologias web como React, TypeScript,

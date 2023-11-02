@@ -36,22 +36,11 @@
 
   /* SCROLLBAR */
   * {
-    scrollbar-width: auto;
-    scrollbar-color: rgb(var(--text));
+    scrollbar-width: 0;
   }
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 1.25rem;
-  }
-
-  *::-webkit-scrollbar-track {
-    background: rgb(var(--background));
-  }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: rgb(var(--text));
-    border-radius: 0.75rem;
-    border: 6px solid rgb(var(--background));
+    width: 0rem;
   }
 }

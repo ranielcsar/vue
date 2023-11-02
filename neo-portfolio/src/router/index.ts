@@ -1,8 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/home/_index.vue'
-import ProjectsView from '@/views/projects/_index.vue'
-import ExperiencesView from '@/views/experiences/_index.vue'
-import CurriculumView from '@/views/curriculum/_index.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,19 +13,22 @@ const router = createRouter({
     {
       path: '/projetos',
       name: 'projects',
-      component: ProjectsView
+      component: () => import('@/views/projects/_index.vue')
     },
     {
       path: '/experiencias',
       name: 'experiences',
-      component: ExperiencesView
+      component: () => import('@/views/experiences/_index.vue')
     },
     {
       path: '/curriculo',
       name: 'curriculum',
-      component: CurriculumView
+      component: () => import('@/views/curriculum/_index.vue')
     }
-  ]
+  ],
+  scrollBehavior() {
+    return { top: 0, behavior: 'smooth' }
+  }
 })
 
 export default router
