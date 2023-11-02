@@ -6,11 +6,7 @@ export const cartStore = create(() => {
   const cart = ref<T_ProductOnCart[]>([])
   const totalItens = ref(0)
 
-  watch(cart, () => {
-    totalItens.value = cart.value.reduce((total, product) => {
-      return total + product.quantityInCart
-    }, 0)
-  })
+  watch(cart, () => (totalItens.value = cart.value.length))
 
   function addToCart(newProduct: T_ProductProps) {
     const newCart = cart.value.slice()

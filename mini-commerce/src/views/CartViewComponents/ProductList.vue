@@ -25,9 +25,9 @@ defineProps<{
       v-for="product in cart"
       :key="product.id"
     >
-      <h2 class="p-3">{{ product.name }}</h2>
+      <h2 class="p-3">{{ product.title }}</h2>
 
-      <img class="h-full w-full" :src="product.image" :alt="product.name" />
+      <img class="h-full w-full" :src="product.images[0]" :alt="product.title" />
 
       <div class="flex h-full flex-col justify-between p-3">
         <p class="text-lg">{{ product.description }}</p>

@@ -11,7 +11,7 @@ async function getProducts() {
     const response = await api.get('/products')
     const data = await response.data
 
-    products.value = data
+    products.value = data.products
   } catch (error) {
     console.error(error)
   }
